@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+.fa-circle-user{
+    font-size: 80px;
+    background: purple;
+    display: block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 100px auto;
+    margin-top: -50px;
+    border: 8px solid purple;
+    padding: 10px;
+}
+.container ,#language-page{
+    background: purple;
+    color: white;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  padding: 20px;
+ text-align: center;
+ margin: 100px;
+}
+.form-container{
+    margin-bottom: 10px;
+    text-align: left;
+}
+input ,select{
+    padding: 10px;
+    width: 85%;
+    border-radius: 5px;
+    margin: 5px 0;
+
+}
+label{
+
+    font-size: 18px;
+    margin: 10px 0;
+    padding-right: 10px;
+}
+button {
+    background: black;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0;
+    width: 40%;
+    padding: 10px 25px;
+    box-shadow: 0 5px 15px black;
+    outline: none;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+#mcq-page {
+    display: none;  
+} 
+#questions-container {
+     
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+input[type="radio"] {
+    transform: scale(1.1); /* Slightly bigger */
+    margin-right: 5px;
+    display: block;
+}
+.question {
+    
+    margin-bottom: 15px;
+}
+
+.question label {
+    display: block;
+    align-items: center;
+    gap: 8px;  /* Space between radio and text */
+    margin-bottom: 3px; /* Reduce gap */
+    font-size: 16px;
+}
+.question p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+ 
+input[type="radio"] + label {
+    display: inline-block;
+    
+}
+button:hover{
+    background: white;
+    color: black;
+}
